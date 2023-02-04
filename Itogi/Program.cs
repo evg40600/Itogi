@@ -14,7 +14,7 @@ for (int i = 0; i < base_array.Length; i++)
 
 }    
 
-Console.WriteLine(k);
+//Console.WriteLine(k);
 
 String[] final_array = new String[k];
 
@@ -28,3 +28,5 @@ for (int i = 0; i < base_array.Length; i++)
         k = k + 1;
     }
 }    
+
+Console.WriteLine($"Массив: [{string.Join(", ", final_array)}]");
