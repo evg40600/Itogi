@@ -15,3 +15,16 @@ for (int i = 0; i < base_array.Length; i++)
 }    
 
 Console.WriteLine(k);
+
+String[] final_array = new String[k];
+
+k = 0;
+
+for (int i = 0; i < base_array.Length; i++)
+{
+    if (base_array[i].Length <= 3)
+    {    
+        final_array[k] = base_array[i];
+        k = k + 1;
+    }
+}    
